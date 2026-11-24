@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 160" fill="none">
+  <defs>
+    <linearGradient id="brassRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DFC498"/>
+      <stop offset="50%" stop-color="#A68253"/>
+      <stop offset="100%" stop-color="#E2C79A"/>
+    </linearGradient>
+    <linearGradient id="tasselSilk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B08959"/>
+      <stop offset="30%" stop-color="#DFC295"/>
+      <stop offset="55%" stop-color="#C8A270"/>
+      <stop offset="80%" stop-color="#E7CCA0"/>
+      <stop offset="100%" stop-color="#A88252"/>
+    </linearGradient>
+    <filter id="softDrop" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="2.5" flood-color="#7A5660" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <g filter="url(#softDrop)">
+    <!-- Metallic eyelet ring -->
+    <circle cx="30" cy="14" r="9" stroke="url(#brassRing)" stroke-width="2.8"/>
+    <circle cx="30" cy="14" r="7.5" stroke="#8C6B41" stroke-width="0.6" opacity="0.5"/>
+    <!-- Silk loop cord -->
+    <path d="M27.5 22 L27.5 34 M32.5 22 L32.5 34" stroke="#B68F5E" stroke-width="2.2" stroke-linecap="round"/>
+    <!-- Wrapped golden knot cap -->
+    <rect x="23" y="33" width="14" height="11" rx="3" fill="url(#brassRing)"/>
+    <line x1="23.5" y1="36.5" x2="36.5" y2="36.5" stroke="#8A673D" stroke-width="0.9"/>
+    <line x1="23.5" y1="40" x2="36.5" y2="40" stroke="#8A673D" stroke-width="0.9"/>
+    <!-- Flowing silk tassel skirt -->
+    <path d="M24 44 C21 76, 17 115, 16 146 C22 149, 26 148, 30 149 C34 148, 39 149, 44 146 C43 115, 39 76, 36 44 Z" fill="url(#tasselSilk)"/>
+    <!-- Fine vertical silk strand highlights -->
+    <path d="M26 45 C24 80, 21 116, 20 147" stroke="#9B7548" stroke-width="0.7" opacity="0.55"/>
+    <path d="M28.5 45 C27.5 80, 26 116, 25.5 148" stroke="#F4DFBD" stroke-width="0.8" opacity="0.65"/>
+    <path d="M31 45 C31.5 80, 31 116, 30.5 149" stroke="#9B7548" stroke-width="0.7" opacity="0.5"/>
+    <path d="M33.5 45 C35 80, 36 116, 36 147" stroke="#F4DFBD" stroke-width="0.75" opacity="0.6"/>
+    <path d="M35 45 C37.5 80, 39.5 116, 40.5 146" stroke="#9B7548" stroke-width="0.65" opacity="0.45"/>
+  </g>
+</svg>

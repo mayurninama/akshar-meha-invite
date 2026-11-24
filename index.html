@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Akshar &amp; Meha Patel — Wedding Invitation | Boulevard 9, Nadiad</title>
+  <meta name="description" content="Join us in celebrating the wedding of Akshar &amp; Meha Patel on January 22–24, 2027 at Boulevard 9 Luxury Resort &amp; Spa, Nadiad." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600&family=Noto+Serif+Devanagari:wght@400;500&family=Pinyon+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="intro-locked">
+  <!-- Soft floating petal / blessing burst layer -->
+  <div id="petalLayer" class="petal-layer" aria-hidden="true"></div>
+
+  <!-- =========================================================
+       OPENING ENVELOPE & VINTAGE CAR TRANSITION OVERLAY
+       ========================================================= -->
+  <div id="introOverlay" class="intro-overlay" role="dialog" aria-modal="true" aria-label="Wedding Invitation Envelope">
+    <div class="intro-stage">
+      <div class="intro-header">
+        <p class="eyebrow">YOU&rsquo;VE RECEIVED AN INVITATION FROM</p>
+        <h1 class="couple-script intro-names">
+          <span>Akshar</span>
+          <span class="and-word">and</span>
+          <span>Meha</span>
+        </h1>
+        <p class="surname-tag">PATEL</p>
+      </div>
+
+      <div class="envelope-wrap" id="envelopeBtn" role="button" tabindex="0" aria-label="Open the wedding invitation envelope">
+        <div class="envelope-body">
+          <!-- Inner glimpse card -->
+          <div class="envelope-inner-card">
+            <img src="assets/ganpati.svg" alt="" class="mini-ganpati" />
+            <span class="mini-shlok">॥ श्री गणेशाय नमः ॥</span>
+            <span class="mini-date">JAN 22 – 24, 2027</span>
+          </div>
+
+          <!-- Pocket folds -->
+          <div class="envelope-pocket-left"></div>
+          <div class="envelope-pocket-right"></div>
+          <div class="envelope-pocket-bottom"></div>
+
+          <!-- Top triangular flap -->
+          <div class="envelope-flap">
+            <div class="envelope-flap-inner"></div>
+          </div>
+
+          <!-- Wax seal & floral corner bouquet -->
+          <img src="assets/wax-seal.png" alt="Wax Seal" class="intro-wax-seal" />
+          <img src="assets/rose-bouquet.png" alt="" class="intro-bouquet" />
+        </div>
+      </div>
+
+      <button id="openEnvelopeBtn" class="open-cta" type="button">
+        <span>OPEN THE ENVELOPE</span>
+        <span class="cta-pulse" aria-hidden="true"></span>
+      </button>
+      <p class="intro-subnote">JAN 22 – 24, 2027 &bull; BOULEVARD 9, NADIAD</p>
+    </div>
+
+    <!-- Vintage car transition element -->
+    <div id="introCarLayer" class="intro-car-layer" aria-hidden="true">
+      <img src="assets/vintage-car.png" alt="" class="intro-car-img" />
+    </div>
+  </div>
+
+  <!-- =========================================================
+       MAIN INVITATION SCROLL EXPERIENCE
+       ========================================================= -->
+  <main id="inviteMain" class="invite-shell" aria-hidden="true">
+
+    <!-- SECTION 1: HERO FLATLAY & GANPATI SHLOK -->
+    <section id="sec-hero" class="invite-section sec-hero reveal-section">
+      <!-- Top opened envelope peek & floral bouquet -->
+      <div class="hero-top-flap anim-item" style="--d: 0.05s">
+        <div class="open-flap-triangle">
+          <img src="assets/rose-bouquet.png" alt="" class="flap-roses" />
+        </div>
+      </div>
+
+      <!-- Staggered Polaroid previews (matching reference video composition) -->
+      <div class="hero-collage">
+        <figure class="polaroid hero-pol-1 anim-item" style="--d: 0.14s">
+          <img src="assets/gallery-1.jpg" alt="Akshar and Meha golden hour portrait" />
+        </figure>
+
+        <div class="pendant-tag hero-tag anim-item" style="--d: 0.22s">
+          <p class="pendant-eyebrow">TOGETHER<br />IS A</p>
+          <p class="pendant-script">beautiful</p>
+          <p class="pendant-eyebrow">PLACE TO BE</p>
+          <img src="assets/gold-tassel.svg" alt="" class="tassel-hang" />
+        </div>
+
+        <figure class="polaroid hero-pol-2 anim-item" style="--d: 0.28s">
+          <img src="assets/gallery-2.jpg" alt="Mehendi hands intertwined" />
+        </figure>
+
+        <figure class="polaroid hero-pol-3 anim-item" style="--d: 0.36s">
+          <img src="assets/gallery-3.jpg" alt="Vintage car pre-wedding moment" />
+        </figure>
+      </div>
+
+      <!-- Main Arched Stationery Card with Ganpati & Shlok -->
+      <article class="stationery-card arch-card hero-arch anim-item" style="--d: 0.18s">
+        <img src="assets/rose-bouquet.png" alt="" class="arch-corner-floral" />
+        <div class="arch-inner-border">
+          <div class="ganpati-block">
+            <img src="assets/ganpati.svg" alt="Lord Ganesha" class="ganpati-emblem" />
+            <p class="shlok-sanskrit" lang="sa">
+              ॥ श्री गणेशाय नमः ॥<br />
+              वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।<br />
+              निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥
+            </p>
+            <p class="shlok-meaning">
+              &ldquo;With Lord Ganesha&rsquo;s divine grace, may every step of this union be blessed with auspicious joy.&rdquo;
+            </p>
+          </div>
+
+          <div class="hairline-divider"></div>
+
+          <p class="eyebrow small">THE WEDDING OF</p>
+          <h2 class="couple-script hero-names">
+            <span>Akshar</span>
+            <span class="and-word">and</span>
+            <span>Meha</span>
+          </h2>
+          <p class="surname-pill">PATEL</p>
+
+          <p class="hero-date">JANUARY 22 – 24, 2027</p>
+          <p class="hero-time">SHUBH MUHURAT &bull; SATURDAY, JAN 23 AT 4:30 PM</p>
+          <p class="hero-venue">
+            BOULEVARD 9 LUXURY RESORT &amp; SPA<br />
+            NADIAD, GUJARAT
+          </p>
+        </div>
+      </article>
+
+      <div class="scroll-cue anim-item" style="--d: 0.45s">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- SECTION 2: LOVE STORY & QUOTES -->
+    <section id="sec-story" class="invite-section sec-story reveal-section">
+      <div class="story-pendant-row">
+        <div class="pendant-tag story-tag anim-item" style="--d: 0.08s">
+          <p class="pendant-eyebrow">JOIN US FOR THE</p>
+          <p class="pendant-script">beginning</p>
+          <p class="pendant-eyebrow">OF FOREVER</p>
+          <img src="assets/gold-tassel.svg" alt="" class="tassel-hang" />
+        </div>
+      </div>
+
+      <div class="ribbon-drift anim-item" style="--d: 0.12s">
+        <img src="assets/silk-ribbon.png" alt="" class="ribbon-img" />
+      </div>
+
+      <article class="stationery-card rect-card story-card anim-item" style="--d: 0.2s">
+        <img src="assets/rose-bouquet.png" alt="" class="story-floral-left" />
+        <div class="rect-inner-border">
+          <h3 class="section-mixed-title">
+            <span class="title-sans">OUR</span>
+            <span class="title-script">love</span>
+            <span class="title-sans">STORY</span>
+          </h3>
+          <p class="story-copy">
+            It all began with warm chai, shared laughter, and a simple conversation that gently
+            rewrote our tomorrows. Through seasons of friendship, family traditions, and endless
+            memories across Gujarat and beyond, two hearts found their favorite home in each other.
+          </p>
+          <blockquote class="editorial-quote">
+            &ldquo;Two souls with but a single thought, two hearts that beat as one.&rdquo;
+          </blockquote>
+          <p class="story-signoff">With blessings of Smt. &amp; Shri Patel Families</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- SECTION 3: INTERACTIVE CALENDAR WIDGET (JANUARY 2027) -->
+    <section id="sec-calendar" class="invite-section sec-calendar reveal-section">
+      <article class="stationery-card rect-card calendar-card anim-item" style="--d: 0.1s">
+        <img src="assets/wax-seal.png" alt="" class="cal-wax-seal" />
+        <div class="rect-inner-border">
+          <p class="eyebrow small">SAVE THE DATES</p>
+          <h3 class="section-mixed-title">
+            <span class="title-sans">JANUARY</span>
+            <span class="title-script">2027</span>
+          </h3>
+          <p class="cal-sub">Tap a highlighted date to preview the day&rsquo;s festivities</p>
+
+          <div class="cal-weekdays" aria-hidden="true">
+            <span>SUN</span><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span>
+          </div>
+          <div id="calendarGrid" class="cal-grid" role="grid" aria-label="January 2027 Wedding Calendar">
+            <!-- Populated by script.js -->
+          </div>
+
+          <div id="calDayPreview" class="cal-day-preview" aria-live="polite">
+            <!-- Dynamic day schedule -->
+          </div>
+
+          <div class="cal-actions">
+            <button id="downloadIcsBtn" type="button" class="btn-outline-blush">
+              Add to Calendar (.ics)
+            </button>
+            <a
+              id="googleCalLink"
+              class="btn-soft-blush"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Akshar+%26+Meha+Patel+Wedding&dates=20270122T043000Z/20270124T173000Z&details=Three-day+Indian+Wedding+Celebration+of+Akshar+%26+Meha+Patel+at+Boulevard+9+Luxury+Resort+%26+Spa%2C+Nadiad.&location=Boulevard+9+Luxury+Resort+%26+Spa%2C+Nadiad%2C+Gujarat"
+            >
+              Google Calendar
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- SECTION 4: INDIAN WEDDING EVENTS TIMELINE (SEPARATE SUB-CARDS + MINI CAR) -->
+    <section id="sec-events" class="invite-section sec-events reveal-section">
+      <div class="ribbon-drift reverse anim-item" style="--d: 0.08s">
+        <img src="assets/silk-ribbon.png" alt="" class="ribbon-img" />
+      </div>
+
+      <header class="timeline-header anim-item" style="--d: 0.14s">
+        <img src="assets/rose-bouquet.png" alt="" class="timeline-floral" />
+        <p class="eyebrow small">SHUBH VIVAH CELEBRATIONS</p>
+        <h3 class="section-mixed-title stacked">
+          <span class="title-sans">WEDDING</span>
+          <span class="title-script big">timeline</span>
+        </h3>
+        <p class="venue-subline">ALL FESTIVITIES AT BOULEVARD 9, NADIAD</p>
+
+        <!-- Day Filter Tabs -->
+        <div class="day-tabs" role="tablist" aria-label="Filter wedding events by date">
+          <button type="button" class="day-tab active" data-day="all" role="tab" aria-selected="true">All 6 Events</button>
+          <button type="button" class="day-tab" data-day="2027-01-22" role="tab" aria-selected="false">Jan 22</button>
+          <button type="button" class="day-tab" data-day="2027-01-23" role="tab" aria-selected="false">Jan 23</button>
+          <button type="button" class="day-tab" data-day="2027-01-24" role="tab" aria-selected="false">Jan 24</button>
+        </div>
+      </header>
+
+      <div id="timelineRoadWrap" class="timeline-road-wrap anim-item" style="--d: 0.22s">
+        <div class="timeline-rail" aria-hidden="true">
+          <div id="timelineProgress" class="timeline-progress"></div>
+        </div>
+        <div id="timelineMiniCar" class="timeline-mini-car" aria-hidden="true">
+          <img src="assets/vintage-car.png" alt="" />
+          <span class="mini-car-glow"></span>
+        </div>
+        <div id="eventsTimelineList" class="timeline-cards-list">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: POLAROID GALLERY (5 IMAGES) -->
+    <section id="sec-gallery" class="invite-section sec-gallery reveal-section">
+      <div class="gallery-header anim-item" style="--d: 0.08s">
+        <p class="eyebrow small">CAPTURED MOMENTS</p>
+        <h3 class="section-mixed-title">
+          <span class="title-sans">OUR</span>
+          <span class="title-script">memories</span>
+        </h3>
+        <blockquote class="editorial-quote compact">
+          &ldquo;Every love story is beautiful, but ours is my favorite.&rdquo;
+        </blockquote>
+      </div>
+
+      <div id="polaroidGallery" class="polaroid-board">
+        <!-- 5 Polaroids rendered by script.js -->
+      </div>
+      <p class="gallery-hint anim-item" style="--d: 0.4s">Tap any Polaroid to view full size</p>
+    </section>
+
+    <!-- SECTION 6: WHATSAPP RSVP & COUNTDOWN -->
+    <section id="sec-rsvp" class="invite-section sec-rsvp reveal-section">
+      <article class="stationery-card rsvp-card anim-item" style="--d: 0.12s">
+        <img src="assets/rose-bouquet.png" alt="" class="rsvp-floral" />
+        <img src="assets/wax-seal.png" alt="" class="rsvp-wax" />
+
+        <div class="rsvp-inner">
+          <h3 class="rsvp-script">Rsvp</h3>
+          <p class="rsvp-sub">
+            YOUR PRESENCE MEANS <span class="script-inline">everything</span> TO US
+          </p>
+
+          <form id="rsvpForm" class="rsvp-form" novalidate>
+            <div class="field-group">
+              <label for="rsvpName">YOUR FULL NAME</label>
+              <input id="rsvpName" type="text" placeholder="e.g. Aarav &amp; Diya Desai" required />
+            </div>
+
+            <div class="field-row">
+              <div class="field-group">
+                <label for="rsvpStatus">ATTENDING?</label>
+                <select id="rsvpStatus">
+                  <option value="Joyfully Accepts">Joyfully Accepts</option>
+                  <option value="Regretfully Declines">Regretfully Declines</option>
+                </select>
+              </div>
+              <div class="field-group">
+                <label for="rsvpGuests">GUESTS</label>
+                <select id="rsvpGuests">
+                  <option value="1">1 Guest</option>
+                  <option value="2" selected>2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5+">5+ Family</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label>CELEBRATIONS JOINING</label>
+              <div class="event-checks">
+                <label class="chk-pill"><input type="checkbox" value="Ganesh Sthapana & Haldi" checked /><span>Haldi</span></label>
+                <label class="chk-pill"><input type="checkbox" value="Mehendi Soirée" checked /><span>Mehendi</span></label>
+                <label class="chk-pill"><input type="checkbox" value="Sangeet & Cocktail Night" checked /><span>Sangeet</span></label>
+                <label class="chk-pill"><input type="checkbox" value="Baraat & Var Mala" checked /><span>Baraat</span></label>
+                <label class="chk-pill"><input type="checkbox" value="Pheras & Hasta Milap" checked /><span>Pheras</span></label>
+                <label class="chk-pill"><input type="checkbox" value="Grand Reception" checked /><span>Reception</span></label>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label for="rsvpNote">DIETARY OR ARRIVAL NOTE (OPTIONAL)</label>
+              <input id="rsvpNote" type="text" placeholder="Jain meals, shuttle pickup, etc." />
+            </div>
+
+            <button type="submit" class="btn-whatsapp-primary">
+              <span class="wa-dot" aria-hidden="true"></span>
+              <span>SEND RSVP ON WHATSAPP</span>
+            </button>
+            <p class="demo-num-note">Demo RSVP Desk: +91 0123456789</p>
+          </form>
+        </div>
+      </article>
+
+      <!-- Live Countdown -->
+      <div class="countdown-block anim-item" style="--d: 0.25s">
+        <img src="assets/silk-ribbon.png" alt="" class="countdown-ribbon" />
+        <p class="eyebrow small">THE</p>
+        <h4 class="countdown-script">countdown</h4>
+        <div class="countdown-digits" aria-live="off">
+          <div class="cd-unit"><span id="cdDays">00</span><small>Days</small></div>
+          <span class="cd-colon">:</span>
+          <div class="cd-unit"><span id="cdHours">00</span><small>Hours</small></div>
+          <span class="cd-colon">:</span>
+          <div class="cd-unit"><span id="cdMins">00</span><small>Minutes</small></div>
+          <span class="cd-colon">:</span>
+          <div class="cd-unit"><span id="cdSecs">00</span><small>Seconds</small></div>
+        </div>
+        <p class="countdown-target">UNTIL SHUBH PHERAS &bull; JAN 23, 2027</p>
+      </div>
+    </section>
+
+    <!-- SECTION 7: HOSPITALITY, VENUE & GIFTS (CIRCULAR CARDS) -->
+    <section id="sec-details" class="invite-section sec-details reveal-section">
+      <div class="circle-card large-circle anim-item" style="--d: 0.1s">
+        <img src="assets/wax-seal.png" alt="" class="circle-seal-top" />
+        <div class="circle-inner-border">
+          <div class="detail-item">
+            <h4>ACCOMMODATIONS</h4>
+            <p>Luxury suites &amp; villas reserved at Boulevard 9 Resort for our outstation guests.</p>
+          </div>
+          <div class="detail-item">
+            <h4>TRANSPORTATION</h4>
+            <p>Dedicated shuttles from Ahmedabad Airport &amp; Nadiad Junction. Hospitality Desk: 0123456789</p>
+          </div>
+          <div class="detail-item">
+            <h4>DRESS CODE</h4>
+            <p>Vibrant Marigolds for Haldi, Pastels for Mehendi &amp; Royal Ethnic for Pheras.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="venue-gifts-cluster">
+        <div class="pendant-tag venue-circle anim-item" style="--d: 0.22s">
+          <p class="venue-circle-title">BOULEVARD 9<br />LUXURY RESORT<br />&amp; SPA</p>
+          <p class="venue-circle-addr">
+            NADIAD–PETLAD ROAD<br />
+            NEAR UTTARSANDA<br />
+            NADIAD, GUJARAT 387001
+          </p>
+          <a
+            class="directions-pill"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.google.com/maps/search/?api=1&query=Boulevard+9+Luxury+Resort+%26+Spa+Nadiad"
+          >
+            GET DIRECTIONS
+          </a>
+          <img src="assets/gold-tassel.svg" alt="" class="tassel-hang" />
+        </div>
+
+        <article class="stationery-card gifts-mini-card anim-item" style="--d: 0.3s">
+          <img src="assets/wax-seal.png" alt="" class="gifts-wax" />
+          <div class="rect-inner-border">
+            <h4 class="gifts-script">Blessings</h4>
+            <p class="gifts-copy">
+              WITH GRATITUDE<br />
+              YOUR WARM BLESSINGS &amp; PRESENCE ARE OUR GREATEST GIFT
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 8: INTERACTIVE BLESSINGS & CLOSING VIEW -->
+    <section id="sec-closing" class="invite-section sec-closing reveal-section">
+      <!-- Interactive Blessings Card -->
+      <article class="stationery-card rect-card blessing-card anim-item" style="--d: 0.1s">
+        <div class="rect-inner-border">
+          <p class="eyebrow small">SHOWER YOUR LOVE</p>
+          <h3 class="section-mixed-title">
+            <span class="title-sans">SEND</span>
+            <span class="title-script">blessings</span>
+          </h3>
+          <p class="blessing-sub">Choose an auspicious wish or write your own to shower Akshar &amp; Meha with love</p>
+
+          <div id="blessingChips" class="blessing-chips">
+            <button type="button" class="blessing-chip active" data-wish="Wishing Akshar &amp; Meha a lifetime of togetherness, laughter, and endless bliss!">
+              Lifetime of Bliss
+            </button>
+            <button type="button" class="blessing-chip" data-wish="May Lord Ganesha shower Akshar &amp; Meha with eternal harmony, prosperity, and joy!">
+              Ganpati Blessings
+            </button>
+            <button type="button" class="blessing-chip" data-wish="Sada Saubhagyavati Bhava! Warmest Ashirwad for your beautiful new beginning together.">
+              Sada Saubhagya
+            </button>
+          </div>
+
+          <div class="blessing-inputs">
+            <input id="blessingSender" type="text" placeholder="Your Name (e.g. Kaka & Kaki)" />
+            <textarea id="blessingText" rows="2">Wishing Akshar &amp; Meha a lifetime of togetherness, laughter, and endless bliss!</textarea>
+          </div>
+
+          <div class="blessing-actions">
+            <button id="showerBlessingBtn" type="button" class="btn-shower">
+              <span>Shower Blessings ✨</span>
+            </button>
+            <button id="sendBlessingWaBtn" type="button" class="btn-whatsapp-primary">
+              <span class="wa-dot" aria-hidden="true"></span>
+              <span>Send Blessing on WhatsApp</span>
+            </button>
+          </div>
+
+          <div id="blessingToast" class="blessing-toast" aria-live="polite"></div>
+        </div>
+      </article>
+
+      <!-- Closing Editorial View -->
+      <footer class="closing-view anim-item" style="--d: 0.24s">
+        <img src="assets/ganpati.svg" alt="" class="closing-ganpati" />
+        <blockquote class="closing-quote">
+          &ldquo;In all the world, there is no heart for me like yours.<br />
+          In all the world, there is no love for you like mine.&rdquo;
+        </blockquote>
+        <h2 class="couple-script closing-names">
+          <span>Akshar</span>
+          <span class="and-word">and</span>
+          <span>Meha</span>
+        </h2>
+        <p class="surname-tag">PATEL</p>
+        <p class="closing-date">JANUARY 22 – 24, 2027 &bull; BOULEVARD 9, NADIAD</p>
+        <p class="closing-families">With warmth &amp; love from the Patel Families &bull; Demo Helpline: 0123456789</p>
+
+        <button id="replayIntroBtn" type="button" class="back-envelope-btn">
+          &uarr; REPLAY OPENING ENVELOPE
+        </button>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       POST-INTRO BOTTOM PREVIEW CONFIRMATION BAR
+       ========================================================= -->
+  <div id="previewBar" class="preview-bar" hidden>
+    <button id="previewConfirmBtn" type="button" class="preview-bar-btn">
+      <span class="preview-dot" aria-hidden="true"></span>
+      <span>This is a preview only &mdash; Click to confirm</span>
+    </button>
+  </div>
+
+  <!-- =========================================================
+       PREVIEW CONFIRMATION MODAL (Mayur & Sumit ONLY)
+       ========================================================= -->
+  <div id="confirmModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="confirmModalTitle" hidden>
+    <div class="modal-card">
+      <button id="closeConfirmModal" type="button" class="modal-close" aria-label="Close modal">&times;</button>
+      <p class="eyebrow small">INVITATION PREVIEW</p>
+      <h3 id="confirmModalTitle" class="modal-script">Confirm Your Invite</h3>
+      <p class="modal-copy">
+        Love this custom wedding invitation template? Reach out on WhatsApp to customize dates, events, photos, and publish yours!
+      </p>
+
+      <div class="contact-buttons">
+        <a
+          class="wa-contact-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://wa.me/918866363293?text=Hello%20Mayur!%20I%20just%20previewed%20the%20Akshar%20%26%20Meha%20wedding%20invitation%20website%20and%20I%E2%80%99m%20interested%20in%20confirming%20a%20custom%20invite.%20Please%20share%20details!"
+        >
+          <span class="wa-badge">WhatsApp</span>
+          <span class="wa-label">Contact Mayur &mdash; 8866363293</span>
+        </a>
+
+        <a
+          class="wa-contact-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://wa.me/919427000017?text=Hello%20Sumit!%20I%20just%20previewed%20the%20Akshar%20%26%20Meha%20wedding%20invitation%20website%20and%20I%E2%80%99m%20interested%20in%20confirming%20a%20custom%20invite.%20Please%20share%20details!"
+        >
+          <span class="wa-badge">WhatsApp</span>
+          <span class="wa-label">Contact Sumit &mdash; 9427000017</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       POLAROID LIGHTBOX MODAL
+       ========================================================= -->
+  <div id="lightboxModal" class="modal-backdrop lightbox-backdrop" role="dialog" aria-modal="true" aria-label="Gallery photo viewer" hidden>
+    <div class="lightbox-card">
+      <button id="lbClose" type="button" class="modal-close" aria-label="Close gallery">&times;</button>
+      <div class="lightbox-polaroid">
+        <img id="lbImg" src="" alt="" />
+        <p id="lbCaption" class="lb-caption"></p>
+      </div>
+      <div class="lb-controls">
+        <button id="lbPrev" type="button" class="lb-nav" aria-label="Previous photo">&larr; Prev</button>
+        <span id="lbCounter" class="lb-counter">1 / 5</span>
+        <button id="lbNext" type="button" class="lb-nav" aria-label="Next photo">Next &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

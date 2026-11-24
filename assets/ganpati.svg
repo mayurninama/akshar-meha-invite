@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <defs>
+    <radialGradient id="haloGrad" cx="50%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#EED2D9" stop-opacity="0.55"/>
+      <stop offset="65%" stop-color="#F6E5EA" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#F6E5EA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C89E76"/>
+      <stop offset="50%" stop-color="#9A7250"/>
+      <stop offset="100%" stop-color="#C59C72"/>
+    </linearGradient>
+  </defs>
+  <!-- Soft watercolor blush halo -->
+  <circle cx="90" cy="86" r="76" fill="url(#haloGrad)"/>
+  <circle cx="90" cy="86" r="64" stroke="url(#goldStroke)" stroke-width="0.9" stroke-dasharray="2 4" opacity="0.55"/>
+
+  <!-- Lotus petals base -->
+  <path d="M50 140 C62 132, 74 134, 90 144 C106 134, 118 132, 130 140 C118 148, 104 150, 90 148 C76 150, 62 148, 50 140 Z" stroke="url(#goldStroke)" stroke-width="1.35" fill="#F4DCE2" fill-opacity="0.45"/>
+  <path d="M64 143 C74 137, 82 138, 90 145 C98 138, 106 137, 116 143" stroke="#684A52" stroke-width="1.15" stroke-linecap="round"/>
+
+  <!-- Ornate Mukut (Crown) -->
+  <path d="M72 44 C75 34, 83 28, 90 22 C97 28, 105 34, 108 44" stroke="url(#goldStroke)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 44 C80 37, 85 33, 90 29 C95 33, 100 37, 104 44" stroke="#5E424A" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="90" cy="18" r="2.6" fill="url(#goldStroke)"/>
+  <path d="M68 48 C82 43, 98 43, 112 48" stroke="url(#goldStroke)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Ears (graceful curves) -->
+  <path d="M68 52 C52 46, 39 58, 42 75 C44 88, 55 96, 67 93" stroke="#5E424A" stroke-width="1.6" stroke-linecap="round" fill="#F9E9EE" fill-opacity="0.35"/>
+  <path d="M64 58 C53 56, 47 64, 49 74 C51 82, 57 86, 64 85" stroke="url(#goldStroke)" stroke-width="1" stroke-linecap="round"/>
+
+  <path d="M112 52 C128 46, 141 58, 138 75 C136 88, 125 96, 113 93" stroke="#5E424A" stroke-width="1.6" stroke-linecap="round" fill="#F9E9EE" fill-opacity="0.35"/>
+  <path d="M116 58 C127 56, 133 64, 131 74 C129 82, 123 86, 116 85" stroke="url(#goldStroke)" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Forehead & Tilak -->
+  <path d="M70 49 C78 44, 102 44, 110 49 C114 58, 113 72, 107 82" stroke="#5E424A" stroke-width="1.65" stroke-linecap="round"/>
+  <path d="M70 49 C66 58, 67 72, 73 82" stroke="#5E424A" stroke-width="1.65" stroke-linecap="round"/>
+  <!-- Sacred U-tilak & Bindu -->
+  <path d="M85.5 52 C85.5 58, 94.5 58, 94.5 52" stroke="url(#goldStroke)" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="90" y1="50" x2="90" y2="57" stroke="url(#goldStroke)" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="90" cy="60.5" r="1.7" fill="#B57E89"/>
+
+  <!-- Eyes -->
+  <path d="M75 66 C78 63.5, 82.5 63.5, 85 66" stroke="#5E424A" stroke-width="1.45" stroke-linecap="round"/>
+  <path d="M95 66 C97.5 63.5, 102 63.5, 105 66" stroke="#5E424A" stroke-width="1.45" stroke-linecap="round"/>
+
+  <!-- Graceful Curved Trunk (Vamamukhi - curving left) -->
+  <path d="M82 74 C81 86, 83 99, 77 107 C71 115, 61 114, 59 107 C58 102, 62 98, 66 100" stroke="#5E424A" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M98 74 C99 88, 94 106, 84 115 C74 123, 60 121, 56 113" stroke="#5E424A" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Trunk ornament lines -->
+  <path d="M86 83 C89 84, 92 84, 95 83" stroke="url(#goldStroke)" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M85 92 C88 93, 91 93, 94 92" stroke="url(#goldStroke)" stroke-width="1.1" stroke-linecap="round"/>
+
+  <!-- Tusks -->
+  <path d="M73 84 C70 90, 68 94, 71 96" stroke="#5E424A" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M106 84 C109 89, 111 93, 109 96" stroke="#5E424A" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Shoulders & Sacred Garland / Necklace -->
+  <path d="M62 117 C60 125, 64 134, 72 138" stroke="#5E424A" stroke-width="1.45" stroke-linecap="round"/>
+  <path d="M118 117 C120 125, 116 134, 108 138" stroke="#5E424A" stroke-width="1.45" stroke-linecap="round"/>
+  <path d="M71 124 C81 132, 99 132, 109 124" stroke="url(#goldStroke)" stroke-width="1.3" stroke-linecap="round"/>
+  <circle cx="90" cy="131" r="2.2" fill="url(#goldStroke)"/>
+</svg>
